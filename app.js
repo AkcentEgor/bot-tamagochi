@@ -14,9 +14,9 @@ class Bot
 
     checkState() {
         if (bot.food > 50) {
-            document.querySelector('.pet_img').src = '/1.png';
+            document.querySelector('.pet_img').src = '1.png';
         } else {
-            document.querySelector('.pet_img').src = '/2.png';
+            document.querySelector('.pet_img').src = '2.png';
         }
 
         document.querySelector('.food').textContent = bot.food;
